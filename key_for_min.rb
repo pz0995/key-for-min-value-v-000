@@ -8,7 +8,7 @@ def key_for_min_value(hash)
 
 if hash = {}
   return nil
-else
+end
     hash.collect do |key, value|
 
 
@@ -18,7 +18,6 @@ else
         return :ashley
       else (hash[:blake].size > hash[:adam].size || hash[:ashley].size > hash[:adam].size)
         return :adam
-end
 
 end
     end
