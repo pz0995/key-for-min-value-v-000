@@ -7,7 +7,7 @@ def key_for_min_value(hash)
 
 
 
-    hash.each do |key, value|
+    hash.collect do |key, value|
 
 
       if (hash[:blake].size < hash[:ashley].size || hash[:blake].size < hash[:adam].size)
