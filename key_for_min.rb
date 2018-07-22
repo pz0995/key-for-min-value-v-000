@@ -20,7 +20,7 @@ def key_for_min_value(hash)
         return :blake
       elsif hash[:blake].size > hash[:ashley].size
           return :ashley
-        else :ashley hash[:adam].size > hash[:ashley].size
+        else hash[:adam].size > hash[:ashley].size
         return :ashley
 
 
