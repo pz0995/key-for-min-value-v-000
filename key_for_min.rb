@@ -6,9 +6,7 @@ def key_for_min_value(hash)
   key_for_min_value = nil
 
 
-if hash = {}
-  return nil
-end
+
     hash.collect do |key, value|
 
 
@@ -22,8 +20,9 @@ end
 end
     end
   end
-    # hash = {:blake => 500, :ashley => 2, :adam => 1}
-
+  if hash = {}
+    return nil
+  end
 
 #
 # if [nil].empty?
