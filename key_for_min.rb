@@ -23,7 +23,7 @@ end
   if hash = {}
     return nil
   end
-
+end
 #
 # if [nil].empty?
 #   return nil
