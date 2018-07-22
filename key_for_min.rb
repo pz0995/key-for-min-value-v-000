@@ -17,13 +17,13 @@ def key_for_min_value(hash)
       else (hash[:blake].size > hash[:adam].size || hash[:ashley].size > hash[:adam].size)
         return :adam
 
-end
+
     end
   end
   if hash = {}
     return nil
   end
-end
+
 #
 # if [nil].empty?
 #   return nil
