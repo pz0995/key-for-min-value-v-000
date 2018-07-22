@@ -10,7 +10,7 @@ def key_for_min_value(hash)
     hash.collect do |key, value|
 
 
-      if (hash[:blake].size < hash[:ashley].size || hash[:blake].size =< hash[:adam].size)
+      if (hash[:blake].size < hash[:ashley].size || hash[:blake].size <= hash[:adam].size)
         return :blake
       elsif (hash[:blake].size > hash[:ashley].size || hash[:adam].size > hash[:ashley].size)
         return :ashley
