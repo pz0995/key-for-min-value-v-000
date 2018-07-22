@@ -18,7 +18,7 @@ else
         return :ashley
       else (hash[:blake].size > hash[:adam].size || hash[:ashley].size > hash[:adam].size)
         return :adam
-
+end
 
 end
     end
